@@ -15,3 +15,13 @@ U datoteku se zapisuje redom IV, sifrirani tekst te mac za kasniju provjeru inte
 Prilikom učitavanja sadržaja datoteke, odnosno parova adresa-lozinka sadržaj datoteke se odvaja u polja bitova, tj. IV, sifrirani tekst i mac. 
 Zatim se sifrirani tekst uspješno dekriptira AES-GCM-om bez paddinga ako je upisana ispravna glavna zaporka, 
 odnosno ako je provedena uspješna provjera integriteta (pročitani mac jednak onome ponovo izračunatom pomoću glavne lozinke).
+
+Prevođenje koda: javac PohranaZaporki.java
+
+Primjeri izvođenja:
+
+1) inicijalizacija: java PohranaZaporki.java init glavnaZaporka (2 argumenta)
+2) stavljanje zaporke: java PohranaZaporki.java put glavnaZaporka fer zapZaFer (4 argumenta)
+3) dohvaćanje zaporke: java PohranaZaporki.java get glavnaZaporka fer (3 argumenta)
+
+Dakle: prevesti kod, inicijalizirati bazu te zatim proizvoljno koristiti naredbe get i put (ili init za ponovnu inicijalizaciju/brisanje baze).
