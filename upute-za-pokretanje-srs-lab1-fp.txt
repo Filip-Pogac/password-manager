@@ -1,0 +1,9 @@
+Alat za spremanje zaporki ima 3 naredbe: init, put i get.
+
+Prevođenje koda: javac PohranaZaporki.java
+
+Primjeri izvođenja:
+
+1) inicijalizacija: java PohranaZaporki.java init glavnaZaporka (2 argumenta)
+2) stavljanje zaporke: java PohranaZaporki.java put glavnaZaporka fer zapZaFer (4 argumenta)
+3) dohvaćanje zaporke: java PohranaZaporki.java get glavnaZaporka fer (3 argumenta)
