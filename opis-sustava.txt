@@ -1,4 +1,3 @@
-srs lab1 filip pogač
 
 Alat za baratanje zaporkama prepoznaje naredbe "init", "put" i "get".
 Ukoliko nije unesen potreban broj argumenata za svaku od naredaba, ispisuje se odgovarajuća poruka koja daje informacije o korištenju naredaba.
